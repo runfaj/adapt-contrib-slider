@@ -4,6 +4,8 @@ define([
   'libraries/rangeslider'
 ], function(QuestionView, Adapt, Rangeslider) {
 
+	console.log(this,this.model)
+	
     var Slider = QuestionView.extend({
 
         tempValue:true,
